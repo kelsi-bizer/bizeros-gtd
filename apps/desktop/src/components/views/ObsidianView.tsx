@@ -439,7 +439,7 @@ export function ObsidianView() {
                                 <p className="mt-1 text-sm text-sky-900/85">
                                     {resolveText(
                                         'obsidian.taskNotesDetectedBody',
-                                        'Mindwtr detected TaskNotes-style frontmatter in these files, so inline checklist tasks from other notes are ignored.'
+                                        'BizerOS GTD detected TaskNotes-style frontmatter in these files, so inline checklist tasks from other notes are ignored.'
                                     )}
                                 </p>
                                 <p className="mt-2 text-xs text-sky-900/70">
@@ -520,7 +520,7 @@ export function ObsidianView() {
                         <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
                             {resolveText(
                                 'obsidian.emptyBody',
-                                'Mindwtr scanned the configured folders but did not find any Markdown checklist items yet.'
+                                'BizerOS GTD scanned the configured folders but did not find any Markdown checklist items yet.'
                             )}
                         </p>
                     </section>

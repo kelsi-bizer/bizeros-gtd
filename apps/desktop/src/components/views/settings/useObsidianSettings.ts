@@ -47,7 +47,7 @@ export const useObsidianSettings = ({
     const [vaultPath, setVaultPath] = useState('');
     const [enabled, setEnabled] = useState(false);
     const [scanFoldersText, setScanFoldersText] = useState('/');
-    const [inboxFile, setInboxFile] = useState('Mindwtr/Inbox.md');
+    const [inboxFile, setInboxFile] = useState('BizerOS GTD/Inbox.md');
     const [taskNotesIncludeArchived, setTaskNotesIncludeArchived] = useState(false);
     const [newTaskFormat, setNewTaskFormat] = useState<'auto' | 'inline' | 'tasknotes'>('auto');
     const [isSaving, setIsSaving] = useState(false);
@@ -113,7 +113,7 @@ export const useObsidianSettings = ({
             setVaultPath('');
             setEnabled(false);
             setScanFoldersText('/');
-            setInboxFile('Mindwtr/Inbox.md');
+            setInboxFile('BizerOS GTD/Inbox.md');
             setTaskNotesIncludeArchived(false);
             setNewTaskFormat('auto');
             showSaved();

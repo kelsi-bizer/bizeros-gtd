@@ -172,7 +172,7 @@ export function SettingsObsidianSection({
                             type="text"
                             value={obsidianInboxFile}
                             onChange={(event) => onObsidianInboxFileChange(event.target.value)}
-                            placeholder="Mindwtr/Inbox.md"
+                            placeholder="BizerOS GTD/Inbox.md"
                             className="bg-muted p-2 rounded text-sm font-mono border border-border focus:outline-none focus:ring-2 focus:ring-primary"
                         />
                         <p className="text-xs text-muted-foreground">{t.obsidianInboxFileHint}</p>

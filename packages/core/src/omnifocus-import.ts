@@ -203,8 +203,8 @@ const buildWarnings = (counters: OmniFocusWarningCounters): string[] => {
     appendWarning(
         warnings,
         counters.flattenedNestedTasks,
-        '1 nested OmniFocus task was flattened because Mindwtr cannot preserve its hierarchy directly.',
-        '{count} nested OmniFocus tasks were flattened because Mindwtr cannot preserve their hierarchy directly.'
+        '1 nested OmniFocus task was flattened because BizerOS GTD cannot preserve its hierarchy directly.',
+        '{count} nested OmniFocus tasks were flattened because BizerOS GTD cannot preserve their hierarchy directly.'
     );
     appendWarning(
         warnings,

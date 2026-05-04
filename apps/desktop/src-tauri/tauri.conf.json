@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "Mindwtr",
+  "productName": "BizerOS GTD",
   "version": "0.8.9",
   "identifier": "tech.dongdongbh.mindwtr",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "Mindwtr",
+        "title": "BizerOS GTD",
         "width": 1200,
         "height": 800,
         "resizable": true,

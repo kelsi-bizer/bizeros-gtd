@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Mindwtr",
+    "name": "BizerOS GTD",
     "slug": "mindwtr",
     "version": "0.8.9",
     "orientation": "default",
@@ -13,7 +13,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "tech.dongdongbh.mindwtr",
       "infoPlist": {
-        "NSMicrophoneUsageDescription": "Mindwtr uses the microphone to capture voice notes.",
+        "NSMicrophoneUsageDescription": "BizerOS GTD uses the microphone to capture voice notes.",
         "ITSAppUsesNonExemptEncryption": false,
         "LSSupportsOpeningDocumentsInPlace": true,
         "UIFileSharingEnabled": true
@@ -70,7 +70,7 @@
           "widgets": [
             {
               "name": "TasksWidget",
-              "label": "Mindwtr",
+              "label": "BizerOS GTD",
               "description": "Inbox, focus, and quick capture",
               "minWidth": "120dp",
               "minHeight": "120dp",
@@ -121,7 +121,7 @@
       [
         "expo-calendar",
         {
-          "calendarPermission": "Mindwtr needs calendar access to show your events alongside tasks."
+          "calendarPermission": "BizerOS GTD needs calendar access to show your events alongside tasks."
         }
       ],
       "expo-secure-store",

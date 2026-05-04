@@ -79,8 +79,8 @@ const buildSyncUiCopy = (localize: Localize): SyncUiCopy => ({
         '后台同步无法写入当前选择的文件或文件夹。请在“设置 → 同步”中重新选择同步位置。'
     ),
     syncIssueRateLimitedMessage: localize(
-        'Background sync is being rate limited. Mindwtr will retry shortly; review Settings → Sync if it keeps happening.',
-        '后台同步正在被限流。Mindwtr 将稍后重试；如果持续发生，请检查“设置 → 同步”。'
+        'Background sync is being rate limited. BizerOS GTD will retry shortly; review Settings → Sync if it keeps happening.',
+        '后台同步正在被限流。BizerOS GTD 将稍后重试；如果持续发生，请检查“设置 → 同步”。'
     ),
     syncIssueMisconfiguredMessage: localize(
         'Background sync is missing required sync settings. Open Settings → Sync to finish setup.',
@@ -92,8 +92,8 @@ const buildSyncUiCopy = (localize: Localize): SyncUiCopy => ({
     ),
     notificationsDisabledTitle: localize('Notifications disabled', '通知已禁用'),
     notificationsDisabledMessage: localize(
-        'Mindwtr can no longer schedule reminders until notification access is restored.',
-        '在恢复通知权限之前，Mindwtr 无法继续安排提醒。'
+        'BizerOS GTD can no longer schedule reminders until notification access is restored.',
+        '在恢复通知权限之前，BizerOS GTD 无法继续安排提醒。'
     ),
     openActionLabel: localize('Open', '打开'),
 });

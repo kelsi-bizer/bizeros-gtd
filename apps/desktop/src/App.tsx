@@ -628,10 +628,10 @@ function App() {
                     <QuickAddModal />
                     <CloseBehaviorModal
                         isOpen={closePromptOpen}
-                        title={translateOrFallback('settings.closeBehaviorPromptTitle', 'Close Mindwtr?')}
+                        title={translateOrFallback('settings.closeBehaviorPromptTitle', 'Close BizerOS GTD?')}
                         description={translateOrFallback(
                             'settings.closeBehaviorPromptBody',
-                            'Do you want Mindwtr to stay running in the tray or quit completely?'
+                            'Do you want BizerOS GTD to stay running in the tray or quit completely?'
                         )}
                         rememberLabel={translateOrFallback('settings.closeBehaviorRemember', "Don't ask again")}
                         stayLabel={translateOrFallback('settings.closeBehaviorTray', 'Keep running in tray')}

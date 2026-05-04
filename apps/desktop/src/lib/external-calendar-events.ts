@@ -3,7 +3,7 @@ import { ExternalCalendarService } from './external-calendar-service';
 import { isTauriRuntime } from './runtime';
 import { fetchSystemCalendarEvents } from './system-calendar';
 
-const MINDWTR_PUSHED_EVENT_PREFIX = 'Mindwtr: ';
+const MINDWTR_PUSHED_EVENT_PREFIX = 'BizerOS GTD: ';
 const MINDWTR_MIRROR_CALENDAR_NAMES = new Set(['mindwtr', 'mindwtr calendar', 'mindwtrcal']);
 const ICS_MONTH_CACHE_TTL_MS = 5 * 60 * 1000;
 const ICS_MONTH_CACHE_MAX_ENTRIES = 120;

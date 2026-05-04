@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="apps/mobile/assets/images/icon.png" width="120" alt="Mindwtr Logo">
+<img src="apps/mobile/assets/images/icon.png" width="120" alt="BizerOS GTD Logo">
 
-# Mindwtr
+# BizerOS GTD
 
-English | [中文](./README_zh.md)
+The free, open-source, cross-platform GTD app for the BizerOS self-hosted stack. Local-first, no account required. _Mind Like Water._
 
-The free, open-source, cross-platform GTD app. Local-first, no account required. _Mind Like Water._
+> **Note:** BizerOS GTD is a downstream fork of [Mindwtr](https://github.com/dongdongbh/Mindwtr) by Dongda Li, rebranded for the BizerOS ecosystem. Upstream documentation, release notes, and code references still use the `Mindwtr` name.
 
 _New to GTD? Read [GTD in 15 minutes](https://hamberg.no/gtd) for a quick introduction._
 
@@ -70,11 +70,11 @@ _New to GTD? Read [GTD in 15 minutes](https://hamberg.no/gtd) for a quick introd
   </p>
 </div>
 
-## Why Mindwtr (Quick Comparison)
+## Why BizerOS GTD (Quick Comparison)
 
-Mindwtr is built for people who want a complete GTD system without lock-in. Here is a brief, respectful comparison with mainstream task apps and GTD-focused alternatives.
+BizerOS GTD is built for people who want a complete GTD system without lock-in. Here is a brief, respectful comparison with mainstream task apps and GTD-focused alternatives.
 
-| Capability                                                        | Mindwtr | Todoist | TickTick | Everdo | NirvanaHQ |
+| Capability                                                        | BizerOS GTD | Todoist | TickTick | Everdo | NirvanaHQ |
 | ----------------------------------------------------------------- | ------- | ------- | -------- | ------ | --------- |
 | Open source                                                       | ✅      | ❌      | ❌       | ❌     | ❌        |
 | GTD-native workflow                                               | ✅      | ⚠️      | ⚠️       | ✅     | ✅        |

@@ -277,7 +277,7 @@ function RootLayoutContentInner() {
             Storage unavailable
           </Text>
           <Text style={{ fontSize: 14, color: isDark ? '#94a3b8' : '#475569', lineHeight: 20 }}>
-            Mindwtr could not initialize local storage, so changes won&apos;t be saved. Please restart the app or reinstall if the problem persists.
+            BizerOS GTD could not initialize local storage, so changes won&apos;t be saved. Please restart the app or reinstall if the problem persists.
           </Text>
           <Text style={{ fontSize: 12, color: isDark ? '#64748b' : '#94a3b8', marginTop: 16 }}>
             {storageInitError.message}

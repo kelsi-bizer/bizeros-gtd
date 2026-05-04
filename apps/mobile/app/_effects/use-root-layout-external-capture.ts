@@ -112,8 +112,8 @@ export function useRootLayoutExternalCapture({
             showToast({
                 title: localize('Share unavailable', '分享不可用'),
                 message: localize(
-                    'Mindwtr could not read text or a URL from the shared item.',
-                    'Mindwtr 无法从分享内容中读取文本或链接。'
+                    'BizerOS GTD could not read text or a URL from the shared item.',
+                    'BizerOS GTD 无法从分享内容中读取文本或链接。'
                 ),
                 tone: 'warning',
             });
@@ -136,8 +136,8 @@ export function useRootLayoutExternalCapture({
             showToast({
                 title: localize('Capture shortcut unavailable', '快捷捕获不可用'),
                 message: localize(
-                    'Mindwtr could not read a task title from that shortcut link.',
-                    'Mindwtr 无法从该快捷方式链接中读取任务标题。'
+                    'BizerOS GTD could not read a task title from that shortcut link.',
+                    'BizerOS GTD 无法从该快捷方式链接中读取任务标题。'
                 ),
                 tone: 'warning',
             });

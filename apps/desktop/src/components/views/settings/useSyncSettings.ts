@@ -85,7 +85,7 @@ export const useSyncSettings = ({
             return 'Select a folder for sync, not a backup JSON file.';
         }
         if (normalized.includes('permission denied') || normalized.includes('operation not permitted')) {
-            return 'Mindwtr cannot access this folder. Choose a folder you own, then try again.';
+            return 'BizerOS GTD cannot access this folder. Choose a folder you own, then try again.';
         }
         return message || 'Failed to save sync folder.';
     }, []);
@@ -573,7 +573,7 @@ export const useSyncSettings = ({
             const validation = await inspectDesktopBackup(appVersion);
             if (!validation) return;
             if (!validation.valid || !validation.data) {
-                showToast(validation.errors[0] || 'Selected file is not a valid Mindwtr backup.', 'error');
+                showToast(validation.errors[0] || 'Selected file is not a valid BizerOS GTD backup.', 'error');
                 return;
             }
 
@@ -630,7 +630,7 @@ export const useSyncSettings = ({
                     `Import ${preview.taskCount} tasks from ${preview.projectCount} project(s)?`,
                     preview.sectionCount > 0 ? `${preview.sectionCount} section(s) will be preserved.` : null,
                     preview.checklistItemCount > 0 ? `${preview.checklistItemCount} subtask(s) will become checklist items.` : null,
-                    'Imported tasks stay in Inbox so you can process them in Mindwtr.',
+                    'Imported tasks stay in Inbox so you can process them in BizerOS GTD.',
                     ...(projectLines.length > 0 ? ['', ...projectLines] : []),
                     ...(preview.warnings.length > 0 ? ['', ...preview.warnings] : []),
                 ].filter(Boolean).join('\n'),
@@ -689,7 +689,7 @@ export const useSyncSettings = ({
                     preview.projectCount > 0 ? `${preview.projectCount} project(s) will be created.` : null,
                     preview.checklistItemCount > 0 ? `${preview.checklistItemCount} checklist item(s) will be preserved.` : null,
                     preview.standaloneTaskCount > 0
-                        ? `${preview.standaloneTaskCount} task(s) will stay outside projects so you can process them in Mindwtr.`
+                        ? `${preview.standaloneTaskCount} task(s) will stay outside projects so you can process them in BizerOS GTD.`
                         : null,
                     ...(projectLines.length > 0 ? ['', ...projectLines] : []),
                     ...(preview.warnings.length > 0 ? ['', ...preview.warnings] : []),
@@ -750,7 +750,7 @@ export const useSyncSettings = ({
                     preview.areaCount > 0 ? `${preview.areaCount} area(s) will be created from OmniFocus folders when needed.` : null,
                     preview.checklistItemCount > 0 ? `${preview.checklistItemCount} nested task(s) will become checklist items when possible.` : null,
                     preview.standaloneTaskCount > 0
-                        ? `${preview.standaloneTaskCount} task(s) will stay outside projects so you can process them in Mindwtr.`
+                        ? `${preview.standaloneTaskCount} task(s) will stay outside projects so you can process them in BizerOS GTD.`
                         : null,
                     'Imported tasks keep OmniFocus notes, dates, tags, recurrence, and checklist children when supported.',
                     ...(projectLines.length > 0 ? ['', ...projectLines] : []),
