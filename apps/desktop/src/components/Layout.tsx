@@ -348,7 +348,7 @@ export function Layout({ children, currentView, onViewChange }: LayoutProps) {
                     {!isCollapsed && (
                         <img
                             src="/logo.png"
-                            alt="Mindwtr"
+                            alt="BizerOS GTD"
                             className="w-8 h-8 rounded-lg"
                         />
                     )}

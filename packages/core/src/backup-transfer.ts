@@ -179,9 +179,9 @@ export const validateBackupJson = (
     if (metadataVersion && appVersion) {
         const comparison = compareVersions(metadataVersion, appVersion);
         if (comparison > 0) {
-            warnings.push(`This backup was created by a newer Mindwtr version (${metadataVersion}).`);
+            warnings.push(`This backup was created by a newer BizerOS GTD version (${metadataVersion}).`);
         } else if (comparison < 0) {
-            warnings.push(`This backup was created by an older Mindwtr version (${metadataVersion}).`);
+            warnings.push(`This backup was created by an older BizerOS GTD version (${metadataVersion}).`);
         }
     }
 

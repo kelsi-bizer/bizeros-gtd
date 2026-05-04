@@ -58,7 +58,7 @@ export type ObsidianScannerDependencies = {
 };
 
 const DEFAULT_SCAN_FOLDERS = ['/'];
-export const DEFAULT_OBSIDIAN_INBOX_FILE = 'Mindwtr/Inbox.md';
+export const DEFAULT_OBSIDIAN_INBOX_FILE = 'BizerOS GTD/Inbox.md';
 export const DEFAULT_OBSIDIAN_NEW_TASK_FORMAT: ObsidianNewTaskFormat = 'auto';
 export const MAX_OBSIDIAN_MARKDOWN_BYTES = 5 * 1024 * 1024;
 export const MAX_OBSIDIAN_SCAN_WARNINGS = 100;

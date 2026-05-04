@@ -191,7 +191,7 @@ export const inspectDesktopBackup = async (appVersion?: string | null): Promise<
         accept: '.json,application/json',
         extensions: ['json'],
         mode: 'text',
-        title: 'Mindwtr Backup',
+        title: 'BizerOS GTD Backup',
     });
     if (!document?.text) return null;
     return validateBackupJson(document.text, {

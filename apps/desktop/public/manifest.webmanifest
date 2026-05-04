@@ -1,6 +1,6 @@
 {
-  "name": "Mindwtr",
-  "short_name": "Mindwtr",
+  "name": "BizerOS GTD",
+  "short_name": "BizerOS GTD",
   "description": "A complete Getting Things Done (GTD) productivity system.",
   "start_url": "/",
   "display": "standalone",
