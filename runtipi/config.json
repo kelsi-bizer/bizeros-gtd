@@ -1,0 +1,6 @@
+{
+  "id": "bizeros-appstore",
+  "name": "BizerOS App Store",
+  "enabled": true,
+  "url": "https://github.com/kelsi-bizer/bizeros-gtd"
+}

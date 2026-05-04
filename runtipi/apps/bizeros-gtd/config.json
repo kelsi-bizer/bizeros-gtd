@@ -1,5 +1,4 @@
 {
-  "$schema": "../schema.json",
   "name": "BizerOS GTD",
   "id": "bizeros-gtd",
   "available": true,
