@@ -5,8 +5,6 @@ This folder contains Dockerfiles and a compose file to run BizerOS GTD (a fork o
 - **mindwtr-app**: the desktop web/PWA build, served by Nginx
 - **mindwtr-cloud**: the lightweight sync server
 
-For one-click self-hosting on Runtipi, see the Runtipi app definition in [`../runtipi/`](../runtipi).
-
 ## Quick start (compose)
 
 ```bash

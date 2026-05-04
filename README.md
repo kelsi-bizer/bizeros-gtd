@@ -6,7 +6,7 @@
 
 The free, open-source, cross-platform GTD app for the BizerOS self-hosted stack. Local-first, no account required. _Mind Like Water._
 
-> **Note:** BizerOS GTD is a downstream fork of [Mindwtr](https://github.com/dongdongbh/Mindwtr) by Dongda Li, rebranded for the BizerOS ecosystem and packaged for one-click install via the [Runtipi](https://runtipi.io) app store. Upstream documentation, release notes, and code references still use the `Mindwtr` name. See [`runtipi/`](./runtipi) for the Runtipi app definition — to install in Runtipi, add this repo as a custom app store with branch `runtipi-appstore`.
+> **Note:** BizerOS GTD is a downstream fork of [Mindwtr](https://github.com/dongdongbh/Mindwtr) by Dongda Li, rebranded for the BizerOS ecosystem. Upstream documentation, release notes, and code references still use the `Mindwtr` name.
 
 _New to GTD? Read [GTD in 15 minutes](https://hamberg.no/gtd) for a quick introduction._
 
