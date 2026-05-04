@@ -1,8 +1,11 @@
-# Mindwtr Docker (PWA + Cloud)
+# BizerOS GTD Docker (PWA + Cloud)
 
-This folder contains Dockerfiles and a compose file to run:
+This folder contains Dockerfiles and a compose file to run BizerOS GTD (a fork of [Mindwtr](https://github.com/dongdongbh/Mindwtr)). Internal service, image, and environment-variable names retain the upstream `mindwtr` prefix to keep upstream merges clean — only user-facing branding has been changed.
+
 - **mindwtr-app**: the desktop web/PWA build, served by Nginx
 - **mindwtr-cloud**: the lightweight sync server
+
+For one-click self-hosting on Runtipi, see the Runtipi app definition in [`../runtipi/`](../runtipi).
 
 ## Quick start (compose)
 

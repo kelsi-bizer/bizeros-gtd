@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema.json",
+  "name": "BizerOS GTD",
+  "id": "bizeros-gtd",
+  "available": true,
+  "exposable": true,
+  "port": 5173,
+  "version": "0.8.9",
+  "tipi_version": 1,
+  "categories": ["utilities", "data"],
+  "description": "Self-hosted, local-first Getting Things Done (GTD) app for the BizerOS stack. Capture, clarify, organize, reflect, engage — without sending your tasks to a third-party cloud.",
+  "short_desc": "Local-first GTD task manager with self-hosted sync.",
+  "author": "BizerOS (fork of Mindwtr by Dongda Li)",
+  "source": "https://github.com/kelsi-bizer/bizeros-gtd",
+  "website": "https://github.com/kelsi-bizer/bizeros-gtd",
+  "supported_architectures": ["amd64", "arm64"],
+  "form_fields": [
+    {
+      "type": "random",
+      "label": "Cloud auth token",
+      "min": 32,
+      "required": true,
+      "env_variable": "MINDWTR_CLOUD_AUTH_TOKENS",
+      "hint": "Bearer token shared between the PWA and any REST/MCP clients. Leave blank to auto-generate."
+    },
+    {
+      "type": "text",
+      "label": "Public PWA URL (CORS origin)",
+      "required": true,
+      "env_variable": "MINDWTR_CLOUD_CORS_ORIGIN",
+      "placeholder": "https://gtd.example.com",
+      "hint": "The URL where you will reach the PWA from your browser. Used by the cloud sync server to validate CORS."
+    }
+  ]
+}
